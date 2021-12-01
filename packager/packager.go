@@ -135,6 +135,8 @@ func downloadDependency(dependency Dependency, cacheDir string) (File, error) {
 }
 
 func Package(bpDir, cacheDir, version, stack string, cached bool) (string, error) {
+	fmt.Println("Test 1234")
+
 	bpDir, err := filepath.Abs(bpDir)
 	if err != nil {
 		return "", err
