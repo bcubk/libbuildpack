@@ -1,4 +1,4 @@
-module github.com/cloudfoundry/libbuildpack
+module github.com/bcubk/libbuildpack
 
 require (
 	code.cloudfoundry.org/lager v2.0.0+incompatible
